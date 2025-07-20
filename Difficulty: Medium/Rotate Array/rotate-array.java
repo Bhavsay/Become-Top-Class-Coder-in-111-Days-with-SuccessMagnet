@@ -3,8 +3,8 @@
 class Solution {
     // Function to rotate an array by d elements in counter-clockwise direction.
     static void rotateArr(int arr[], int d) {
-        // int n = arr.length-1;
-        // for (int k=1; k<= d; k++) {
+        // int n = arr.length;
+        // for(int k=1; k<= d; k++) {
         //     int i=0;
         //     int j=1;
         //     int temp = arr[0];    
