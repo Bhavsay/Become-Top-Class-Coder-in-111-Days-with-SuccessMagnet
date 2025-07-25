@@ -1,20 +1,20 @@
+import java.util.Scanner;
 class Solution {
     public List<String> fizzBuzz(int n) {
-        ArrayList<String> result = new ArrayList<>();
+        List<String> answer = new ArrayList<>();
 
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                result.add("FizzBuzz");
+                answer.add("FizzBuzz");
             } else if (i % 3 == 0) {
-                result.add("Fizz");
+                answer.add("Fizz");
             } else if (i % 5 == 0) {
-                result.add("Buzz");
+                answer.add("Buzz");
             } else {
-                result.add(String.valueOf(i)); // Convert int to String
+                answer.add(String.valueOf(i));  // convert number to string
             }
         }
-
-        return result;
-        
+        return answer;
     }
+
 }
