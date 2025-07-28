@@ -12,8 +12,6 @@ class Solution {
                 list.add(entry.getKey());
             }
         }
-
         return list;
-        
     }
 }
