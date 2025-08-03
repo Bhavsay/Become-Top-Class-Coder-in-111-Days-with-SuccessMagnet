@@ -1,5 +1,15 @@
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        for (int j = 0, i = m; j < n; j++) {
+            nums1[i] = nums2[j];
+            i++;
+        }
+        Arrays.sort(nums1);
+    }
+}
+
+/*class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i=m-1;
         int j=n-1;
         int k=m+n-1;
@@ -20,12 +30,13 @@ class Solution {
         
     }
 }
-/*
+
 psvm in 
 int nums1[] = {1,2,3,0,0,0};
 int nums2[] = {2,3,5};
 int m = 3;
 int n = 3;
+use static method or create object.
 mergeArrays(nums1,nums2,m,n);
 for(int i=0; i<m+n; i++){
     System.out.println(nums1[i]+" ");
