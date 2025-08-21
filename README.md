@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0135-candy) |
 | [0162-find-peak-element](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0189-rotate-array) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0134-gas-station) |
+| [0135-candy](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0135-candy) |
 | [2032-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2032-largest-odd-number-in-string) |
 ## Counting Sort
 |  |
