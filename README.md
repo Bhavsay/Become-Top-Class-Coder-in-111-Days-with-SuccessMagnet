@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0485-max-consecutive-ones) |
 | [0560-subarray-sum-equals-k](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0575-distribute-candies) |
 | [0792-binary-search](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0792-binary-search) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Hash Table
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0380-insert-delete-getrandom-o1) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0560-subarray-sum-equals-k](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0560-subarray-sum-equals-k) |
+| [0575-distribute-candies](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0575-distribute-candies) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1890-sum-of-beauty-of-all-substrings) |
 ## Math
 |  |
