@@ -1,32 +1,27 @@
+import java.util.*;
 class Solution {
     public String[] uncommonFromSentences(String s1, String s2) {
-        Map<String, Integer> wordFreq1 = new HashMap<>();
-        Map<String, Integer> wordFreq2 = new HashMap<>();
-        String sen1Words[] = s1.split(" ");
-        String sen2Words[] = s2.split(" ");
-        for(var word : sen1Words){
-            wordFreq1.put(word, wordFreq1.getOrDefault(word, 0)+1);
+        String[] str1 = s1.split(" ");
+        String[] str2 = s2.split(" ");
+
+
+        HashMap<String,Integer> map = new HashMap<>();
+        for(String element : str1){
+            map.put(element,map.getOrDefault(element,0)+1);
         }
-        for(var word : sen2Words){
-            wordFreq2.put(word, wordFreq2.getOrDefault(word, 0)+1);
+        for(String element : str2){
+            map.put(element,map.getOrDefault(element,0)+1);
         }
-        List<String> uncommons = new ArrayList<>();
-        
-        for(var entry : wordFreq1.entrySet()){
-            String word = entry.getKey();
-            int wordFreq = entry.getValue();
-            if(wordFreq == 1 && !wordFreq2.containsKey(word)){
-                 uncommons.add(word);
+        ArrayList<String> list = new ArrayList<>();
+        for(Map.Entry<String,Integer> entry : map.entrySet()){
+            if(entry.getValue()==1){
+                list.add(entry.getKey());
             }
         }
-       
-        for(var entry : wordFreq2.entrySet()){
-            String word = entry.getKey();
-            int wordFreq = entry.getValue();
-            if(wordFreq == 1 && !wordFreq1.containsKey(word)){
-                 uncommons.add(word);
-            }
+        String[] ans = new String[list.size()];
+        for(int i=0; i<list.size(); i++){
+            ans[i] = list.get(i);
         }
-        return uncommons.stream().toArray(String[]::new);
+        return ans;
     }
 }
