@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0128-longest-consecutive-sequence) |
+| [0138-copy-list-with-random-pointer](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0169-majority-element) |
 | [0187-repeated-dna-sequences](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0187-repeated-dna-sequences) |
@@ -378,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0061-rotate-list) |
 | [0092-reverse-linked-list-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0092-reverse-linked-list-ii) |
+| [0138-copy-list-with-random-pointer](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0141-linked-list-cycle) |
 | [0816-design-hashset](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0817-design-hashmap) |
