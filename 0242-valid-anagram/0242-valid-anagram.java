@@ -1,46 +1,21 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class Solution {
     public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) return false; // quick length check
 
-        Map<Character, Integer> ma = new HashMap<>();
-        Map<Character, Integer> mb = new HashMap<>();
-
-        for (char ch : s.toCharArray()) {
-            ma.put(ch, ma.getOrDefault(ch, 0) + 1);
+        if(s.length()!=t.length()){
+            return false;
         }
-        for (char ch : t.toCharArray()) {
-            mb.put(ch, mb.getOrDefault(ch, 0) + 1);
+        // anagram which was same letter and count of letter should be same.
+        HashMap<Character,Integer> map1 = new HashMap<>();
+        HashMap<Character,Integer> map2 = new HashMap<>();
+
+        for(char sc : s.toCharArray()){
+            map1.put(sc,map1.getOrDefault(sc,0)+1);
         }
 
-        return ma.equals(mb);
+        for(char tc : t.toCharArray()){
+            map2.put(tc,map2.getOrDefault(tc,0)+1);
+        }
+
+        return map1.equals(map2);
     }
 }
-
-
-// class Solution {
-//     public boolean isAnagram(String s, String t) {
-//         if (s.length() != t.length()) {
-//             return false;
-//         }
-
-//         Map<Character, Integer> counter = new HashMap<>();
-
-//         for (int i = 0; i < s.length(); i++) {
-//             char ch = s.charAt(i);
-//             counter.put(ch, counter.getOrDefault(ch, 0) + 1);
-//         }
-
-//         for (int i = 0; i < t.length(); i++) {
-//             char ch = t.charAt(i);
-//             if (!counter.containsKey(ch) || counter.get(ch) == 0) {
-//                 return false;
-//             }
-//             counter.put(ch, counter.get(ch) - 1);
-//         }
-
-//         return true;        
-//     }
-// }
