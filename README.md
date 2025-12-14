@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1370-count-number-of-nice-subarrays](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1370-count-number-of-nice-subarrays) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1630-count-odd-numbers-in-an-interval-range) |
+| [1903-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2032-largest-odd-number-in-string) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 ## Two Pointers
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1903-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2032-largest-odd-number-in-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2163-kth-distinct-string-in-an-array) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -320,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0135-candy) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1903-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/1903-largest-odd-number-in-string) |
 | [2032-largest-odd-number-in-string](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2032-largest-odd-number-in-string) |
 ## Counting Sort
 |  |
