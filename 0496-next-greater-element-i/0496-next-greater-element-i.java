@@ -8,11 +8,11 @@ class Solution {
 
             if(!map.isEmpty() && stack.peek()>currentNum){
                 map.put(currentNum, stack.peek());
-                // stack.push(currentNum);
+                
             }
             else if(stack.isEmpty()){
                 map.put(currentNum, -1);
-                // stack.push(currentNum);
+               
             }
             else {
                 while(!stack.isEmpty() && stack.peek()<currentNum){
@@ -20,11 +20,11 @@ class Solution {
                 }
                 if(stack.isEmpty()){
                     map.put(currentNum, -1);
-                    // stack.push(currentNum);
+                    
                 }
                 else {
                     map.put(currentNum, stack.peek());
-                    // stack.push(currentNum);
+                    
                 }
             }
             stack.push(currentNum);
