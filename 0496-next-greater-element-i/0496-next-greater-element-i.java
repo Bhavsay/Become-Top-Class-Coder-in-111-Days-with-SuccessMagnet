@@ -1,19 +1,37 @@
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> map = new HashMap<>();
-        for(int i=0; i<nums2.length; i++){
-            map.put(nums2[i],i);
-        }
-        int[] ans = new int[nums1.length];
-        Arrays.fill(ans,-1);
-        for(int i=0; i<nums1.length; i++){
-            int index = map.get(nums1[i]);
-            for(int j=index+1; j<nums2.length; j++){
-                if(nums2[j]>nums1[i]){
-                    ans[i]=nums2[j];
-                    break;
+        Stack<Integer> stack = new Stack<>();
+
+        for(int i=nums2.length-1; i>=0; i--){
+            int currentNum = nums2[i];
+
+            if(!map.isEmpty() && stack.peek()>currentNum){
+                map.put(currentNum, stack.peek());
+                stack.push(currentNum);
+            }
+            else if(stack.isEmpty()){
+                map.put(currentNum, -1);
+                stack.push(currentNum);
+            }
+            else {
+                while(!stack.isEmpty() && stack.peek()<currentNum){
+                    stack.pop();
+                }
+                if(stack.isEmpty()){
+                    map.put(currentNum, -1);
+                    stack.push(currentNum);
+                }
+                else {
+                    map.put(currentNum, stack.peek());
+                    stack.push(currentNum);
                 }
             }
+
+        }
+        int ans[] = new int[nums1.length];
+        for(int i=0; i<nums1.length; i++){
+            ans[i] = map.get(nums1[i]);
         }
         return ans;
     }
