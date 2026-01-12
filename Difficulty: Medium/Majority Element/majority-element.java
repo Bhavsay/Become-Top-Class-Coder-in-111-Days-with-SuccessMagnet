@@ -1,5 +1,6 @@
 class Solution {
     int majorityElement(int arr[]) {
+        // code here
         int n = arr.length;
         // code here
         HashMap<Integer, Integer> map = new HashMap<>();
