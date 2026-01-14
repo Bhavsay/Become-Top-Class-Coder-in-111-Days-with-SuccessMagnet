@@ -1,14 +1,14 @@
 class Solution {
     public int minSwaps(String s) {
-        int unmatchedOpenBrackets = 0;
-        for(char c : s.toCharArray()){
-            if(c=='['){
-                unmatchedOpenBrackets++;
+        int unmatchOB = 0;
+        for(char ch : s.toCharArray()){
+            if(ch=='['){
+                unmatchOB++;
             }
-            else if (unmatchedOpenBrackets>0){
-                unmatchedOpenBrackets--;
+            else if(unmatchOB>0) {
+                unmatchOB--;
             }
         }
-        return (unmatchedOpenBrackets+1)/2;
+        return (unmatchOB+1)/2;
     }
 }
