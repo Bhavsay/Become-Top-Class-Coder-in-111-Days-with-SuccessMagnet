@@ -1,6 +1,7 @@
 class Solution {
     public int[] rotateElements(int[] nums, int k) {
         List<Integer> list = new ArrayList<>();
+        int n = nums.length;
         for(int i : nums){
             if(i>=0){
                 list.add(i);
