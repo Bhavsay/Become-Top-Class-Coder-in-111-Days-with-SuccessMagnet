@@ -1,15 +1,12 @@
 class Solution {
-    public boolean isPalindrome(int n) {
-         int original = n;
-        int reverse = 0;
-
-        while (n > 0) {
-            int digit = n % 10;            // Get last digit
-            reverse = reverse * 10 + digit; // Build reversed number
-            n /= 10;                        // Remove last digit
+    public boolean isPalindrome(int x) {
+        String s = Integer.toString(x);
+        String t = new StringBuilder(s).reverse().toString();
+        if(s.equals(t)){
+            return true;
         }
-
-        return original == reverse; // Check if reversed equals original
-        
+        else {
+            return false;
+        }
     }
 }
