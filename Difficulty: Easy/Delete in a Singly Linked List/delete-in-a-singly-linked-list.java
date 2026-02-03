@@ -13,27 +13,23 @@ class Node
 */
 class Solution {
     Node deleteNode(Node head, int x){
-         // Case 1: empty list
-        if (head == null) {
-            return head;
-        }
-
+        
+        Node p = head, q = head;
+        
         // Case 2: delete first node
         if (x == 1) {
             return head.next;
         }
 
-        Node p = head;
+
 
         // Move p to (x-1)th node
-        for (int i = 1; i < x - 1 && p.next != null; i++) {
+        for (int i = 1; i < x - 1; i++) {
             p = p.next;
         }
-
-        // Delete xth node
-        if (p.next != null) {
-            p.next = p.next.next;
-        }
+        q=p.next;
+        p.next = p.next.next;
+        
 
         return head;
         
