@@ -34,6 +34,5 @@ class Solution {
         temp.next = null;
 
         return head;
-        
     }
 }
