@@ -21,9 +21,9 @@ class Solution {
                 
                 while (left < right) {
 
-                    long sum = (long) nums[i] + nums[j] + nums[left] + nums[right];
+                    long ourtarget = (long) nums[i] + nums[j] + nums[left] + nums[right];
 
-                    if (sum == target) {
+                    if (target == ourtarget) {
 
                         result.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
 
@@ -33,7 +33,7 @@ class Solution {
                         left++;
                         right--;
 
-                    } else if (sum < target) {
+                    } else if (ourtarget < target) {
                         left++;
                     } else {
                         right--;
