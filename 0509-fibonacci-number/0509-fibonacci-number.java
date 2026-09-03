@@ -1,13 +1,26 @@
 class Solution {
+
+    // for DP learning, remember this pattern 
+    // Most Top-down DP / Memoization problems follow this structure:
+
     public int fib(int n) {
         int[] dp = new int[n+1];
-        Arrays.fill(dp, -1);
-        return solve(n, dp);
+        Arrays.fill(dp,-1);
+
+        return helper(n,dp);
     }
-    private int solve(int n, int[] dp){
+    public int helper(int n, int[] dp){
+
+        // 1. Base case 
         if(n<=1) return n;
-        else if(dp[n] != -1) return dp[n];
-        return dp[n] =  solve(n-1, dp)+solve(n-2, dp);
+
+        // 2. Already calculated
+        if(dp[n] != -1){
+            return dp[n];
+        }
+
+        // 3. calculate + store
+        return dp[n] = helper(n-1, dp) + helper(n-2,dp);
+
     }
-    
 }
