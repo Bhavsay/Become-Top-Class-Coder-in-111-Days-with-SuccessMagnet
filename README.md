@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3477-fruits-into-baskets-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3477-fruits-into-baskets-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3634-minimum-removals-to-balance-array](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3634-minimum-removals-to-balance-array) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3013-divide-an-array-into-subarrays-with-minimum-cost-ii](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3013-divide-an-array-into-subarrays-with-minimum-cost-ii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3731-find-missing-elements](https://github.com/Bhavsay/Become-Top-Class-Coder-in-111-Days-with-SuccessMagnet/tree/master/3731-find-missing-elements) |
 ## Math
