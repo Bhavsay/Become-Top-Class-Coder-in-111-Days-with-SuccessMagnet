@@ -5,9 +5,8 @@ class Solution {
         if(n==k){
             int max = 0;
             for(int num : nums){
-                if(num>max){ // max = Math.max(max,num);
-                    max = num;
-                }
+                max = Math.max(max,num);
+                
             }
             return max;
         }
