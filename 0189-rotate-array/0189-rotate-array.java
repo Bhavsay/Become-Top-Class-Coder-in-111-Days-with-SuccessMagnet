@@ -2,7 +2,15 @@ class Solution {
     public void rotate(int[] nums, int k) {
         
         int n = nums.length;
-        k = k%n;
+        if(k<n){
+            k=k%n;
+        }else if(k==n){
+            System.out.println(nums);
+        }else {
+            k=k%n;
+        }
+        // k = k%n;  //
+
 
         reverse(nums, 0,nums.length-1);
         reverse(nums,0, k-1);
