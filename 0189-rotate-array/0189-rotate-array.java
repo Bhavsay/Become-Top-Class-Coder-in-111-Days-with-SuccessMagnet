@@ -4,9 +4,11 @@ class Solution {
         int n = nums.length;
         if(k<n){
             k=k%n;
-        }else if(k==n){
+        }
+        if(k==n){
             System.out.println(nums);
-        }else {
+        }
+        if(k>n){
             k=k%n;
         }
         // k = k%n;  //
