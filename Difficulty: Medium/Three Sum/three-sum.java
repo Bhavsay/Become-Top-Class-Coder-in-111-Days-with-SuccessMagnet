@@ -1,50 +1,45 @@
-import java.util.*;
-
 class Solution {
-    public static ArrayList<ArrayList<Integer>> triplets(int[] nums) {
+    public static ArrayList<ArrayList<Integer>> triplets(int[] arr) {
         
-        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        Arrays.sort(arr);
         
-        // If array has less than 3 elements
-        if (nums == null || nums.length < 3) return res;
+        ArrayList<ArrayList<Integer>> set = new ArrayList<>();
         
-        // Sort the array
-        Arrays.sort(nums);
-        
-        // Fix first element one by one
-        for (int i = 0; i < nums.length - 2; i++) {
+        for(int i=0; i<arr.length-2; i++){
             
-            // Skip duplicate elements
-            if (i > 0 && nums[i] == nums[i - 1]) continue;
-            
-            int left = i + 1;
-            int right = nums.length - 1;
-            
-            // Two-pointer approach
-            while (left < right) {
-                int sum = nums[i] + nums[left] + nums[right];
-                
-                if (sum == 0) {
-                    res.add(new ArrayList<>(Arrays.asList(
-                        nums[i], nums[left], nums[right]
-                    )));
-                    
-                    // Skip duplicates for left and right
-                    while (left < right && nums[left] == nums[left + 1]) left++;
-                    while (left < right && nums[right] == nums[right - 1]) right--;
-                    
+            if(i>0 && arr[i] == arr[i-1]){
+                continue;
+            }
+
+            int left = i+1;
+            int right = arr.length-1;
+
+            while(left<right){
+
+                int ourtarget = arr[i]+arr[left]+arr[right];
+
+                if(ourtarget == 0){
+                    set.add(new ArrayList<>(
+                        Arrays.asList(arr[i],arr[left],arr[right])
+                    ));
                     left++;
                     right--;
-                } 
-                else if (sum < 0) {
+                    
+                    while(left<right && arr[left]==arr[left-1]){
+                        left++;
+                    }
+                    while(left<right && arr[right] == arr[right+1]){
+                        right--;
+                    }
+                }
+                else if(ourtarget<0){
                     left++;
-                } 
+                }
                 else {
                     right--;
                 }
             }
         }
-        
-        return res;
+        return new ArrayList<>(set);
     }
 }
