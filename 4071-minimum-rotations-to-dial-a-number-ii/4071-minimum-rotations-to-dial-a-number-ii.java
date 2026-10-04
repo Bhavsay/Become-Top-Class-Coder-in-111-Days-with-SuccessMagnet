@@ -12,29 +12,28 @@ class Solution {
         for(int x : a){
             int diff = Math.abs(x-prev);
             original += Math.min(diff, 10-diff);
-                prev = x;
-            }
-            int ans = original;
+            prev = x;
+        }
+        int ans = original;
 
-            for(int k=0; k<n; k++){
-                int before = (k==0) ? 0 : a[k-1];
-                int first = a[k];
-                int last = a[n-1];
+        for(int k=0; k<n; k++){
+            int before = (k==0) ? 0 : a[k-1];
+            int first = a[k];
+            int last = a[n-1];
 
-                int oldCost = Math.min(
-                    Math.abs(before - first),
-                    10-Math.abs(before-first)
-                );
+            int oldCost = Math.min(
+                Math.abs(before - first),
+                10-Math.abs(before-first)
+            );
 
-                int newCost = Math.min(
-                    Math.abs(before-last),
-                    10-Math.abs(before-last)
-                );
+            int newCost = Math.min(
+                Math.abs(before-last),
+                10-Math.abs(before-last)
+            );
 
-                int candidate = original-oldCost+newCost;
-
-                ans = Math.min(ans, candidate);
-            }
-            return ans;
+        int candidate = original-oldCost+newCost;
+        ans = Math.min(ans, candidate);
+        }
+        return ans;
     }   
 }
