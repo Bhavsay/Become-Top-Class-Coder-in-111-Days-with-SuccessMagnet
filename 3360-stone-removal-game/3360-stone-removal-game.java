@@ -1,14 +1,5 @@
 class Solution {
     public boolean canAliceWin(int n) {
-      int limit = 10;
-        int step = 10;
-        boolean result = false;
-
-        while (step >= 4 && n >= limit) {
-            step--;
-            limit += step;
-            result = !result;
-        }
-        return result;
+        return (n >= 10 && n < 19) || (n >= 27 && n < 34) || (n >= 40 && n < 45) || (n >= 49);
     }
 }
